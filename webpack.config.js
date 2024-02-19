@@ -17,4 +17,7 @@ module.exports = {
     port: 9000,
     hot: true,
   },
+  resolve: {
+    modules: [path.resolve(__dirname, 'node_modules'), 'node_modules']
+  }
 }
